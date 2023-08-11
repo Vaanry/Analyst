@@ -27,7 +27,7 @@ def alert(data, test, metric):
     current_time = test['hm'].iloc[-1]
     current_metric = test[metric].iloc[-1]
     if df[df['hm']==current_time]['top'].iloc[0]<current_metric or df[df['hm']==current_time]['bottom'].iloc[0]>current_metric:
-        is_alert=True  #после тестирования знаки надо поменять на противоположные
+        is_alert=True
     return is_alert, current_time, current_metric, df
 
 def run_alert(chat=None):
