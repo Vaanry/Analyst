@@ -5,3 +5,5 @@ Project 1.ipynb - промежуточный проект E-commerse с курс
 airflow_dag_less3.py - код для ДАГа Airflow из урока 3 курса "Аналитик данных" Karpov.courses.
 
 Файлы Final_project - финальный проект с курса "Аналитик данных".
+
+alert.py - реализация системы алертов.
